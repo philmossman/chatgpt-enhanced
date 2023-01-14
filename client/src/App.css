@@ -51,7 +51,7 @@
 }
 
 .chat-input-holder {
-  padding: 12px;
+  padding: 24px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -67,7 +67,7 @@
   font-size: 1.25em;
   border: none;
   outline: none;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .App-header {
@@ -83,6 +83,43 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.chat-log {
+  text-align: left;
+}
+
+.chat-message.chatgpt {
+  background-color: #444654;
+}
+
+.chat-message-centre {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.avatar {
+  background: white;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+}
+
+.avatar.chatgpt {
+  background: #0da37f;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+}
+
+.message {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 @keyframes App-logo-spin {
